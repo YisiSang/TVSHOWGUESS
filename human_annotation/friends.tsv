@@ -1,0 +1,152 @@
+Episode	need history	Facts abstracted from memory	Character Code	Guessed Character Name	Evidence-a1	Evidence-a2	Evidence-a3	Reasoning Type	Evidence-b1	Evidence-b2	Evidence-b3	Reasoning Type	Evidence-c1	Evidence-c2	Evidence-c3	Reasoning Type
+09x01 2500	no	no	P0		inside_scene(background)											
+09x01 2500	no	no	P1		inside_scene(background)				inside_scene(mention)							
+09x01 2500	no	no	P2		inside_scene(mention)											
+09x01 2500	no	yes	P3		fact(relation)											
+09x01 2500	no	yes	P4		fact(relation)			multihop-textual								
+09x01 2500	no	yes	P5		inside_scene(exclusive)											
+09x01 2501	no	yes	P0		fact(relation)			multihop-character								
+09x01 2501	no	yes	P1		fact(relation)	personality										
+09x01 2501	no	yes	P2		inside_scene(exclusive)											
+09x01 2501	yes	yes	P3		history event											
+09x01 2501	no	no	P4		inside_scene(mention)											
+09x01 2502	no	no	P0		inside_scene(background)			multihop-character								
+09x01 2502	yes	yes	P1		history event											
+09x01 2502	no	no	P2		inside_scene(background)			multihop-character								
+09x01 2502	no	no	P3		inside_scene(background)											
+09x01 2503	no	no	P0		fact(relation)											
+09x01 2503	no	no	P1		inside_scene(background)											
+09x01 2503	yes	yes	P2		history event											
+09x01 2504	no	no	P0		inside_scene(mention)											
+09x01 2504	no	no	P1		inside_scene(mention)				history event							
+09x01 2505	no	no	P0		history event				inside_scene(mention)							
+09x01 2505	yes	yes	P1		history event											
+09x01 2506	yes	yes	P0		history event											
+09x01 2506	no	no	P1		history event				fact(relation)							
+09x01 2507	yes	yes	P0		history event	personality										
+09x01 2507	yes	yes	P1		history event											
+09x01 2508	yes	yes	P0		history event											
+09x01 2508	no	no	P1		history event				inside_scene(mention)							
+09x01 2509	yes	yes	P0		history event											
+09x01 2509	no	no	P1		inside_scene(mention)											
+09x01 2509	no	no	P2		inside_scene(mention)											
+09x01 2510	no	no	P0		inside_scene(background)	fact(relation)										
+09x01 2510	no	no	P1		inside_scene(exclusive)											
+09x02 2511	yes	yes	P0		history event											
+09x02 2511	yes	yes	P1		history event											
+09x02 2511	no	no	P2		history event				inside_scene(background)			multihop-character				
+09x02 2512	no	yes	P0		fact(relation)											
+09x02 2512	no	no	P1		inside_scene(background)											
+09x02 2512	no	no	P2		inside_scene(background)											
+09x02 2512	yes	yes	P3		history event											
+09x02 2512	yes	yes	P4		history event	inside_scene(background)										
+09x02 2514	no	no	P0		inside_scene(mention)				personality	linguistic style						
+09x02 2514	no	no	P1		inside_scene(exclusive)											
+09x02 2514	no	no	P2		inside_scene(mention)											
+09x02 2514	no	no	P3		fact(relation)	history event		commonsense	inside_scene(mention)							
+09x02 2516	no	yes	P0		inside_scene(mention)	personality										
+09x02 2516	no	yes	P1		personality	fact(attribute)										
+09x02 2516	no	no	P2		fact(relation)			commonsense	inside_scene(mention)							
+09x02 2517	no	no	P0		history event	inside_scene(background)			inside_scene(mention)							
+09x02 2517	no	no	P1		inside_scene(background)											
+09x02 2518	no	no	P0		inside_scene(background)	inside_scene(mention)										
+09x02 2518	no	yes	P1		fact(relation)											
+09x02 2518	no	no	P2		inside_scene(mention)											
+09x02 2518	no	no	P3		fact(relation)			multihop-character	inside_scene(mention)							
+09x02 2520	no	no	P0		inside_scene(background)			multihop-character								
+09x02 2520	no	no	P1		inside_scene(mention)											
+09x02 2521	no	no	P0		inside_scene(mention)											
+09x02 2521	no	no	P1		personality				inside_scene(mention)							
+09x02 2521	no	no	P2		inside_scene(background)											
+09x02 2521	yes	yes	P3		history event											
+09x02 2522	yes	yes	P0	Ross	history event											
+09x02 2522	no	no	P1	Rachel	history event				inside_scene(mention)							
+09x02 2522	yes	yes	P2	Monica	inside_scene(exclusive)											
+09x02 2523	no	no	P0	Joey	inside_scene(background)			multihop-textual								
+09x02 2523	no	no	P1	Chandler	inside_scene(exclusive)											
+09x03 2524	no	no	P0	Ross	inside_scene(background)	inside_scene(exclusive)		multihop-textual								
+09x03 2524	no	yes	P1	Rachel	inside_scene(background)	personality		multihop-textual								
+09x03 2524	yes	yes	P2	Chandler	history event											
+09x03 2524	yes	yes	P3	Phoebe	inside_scene(exclusive)											
+09x03 2524	no	yes	P4	Joey	fact(relation)											
+09x03 2524	no	no	P5	Monica	inside_scene(background)				fact(relation)			commonsense				
+09x03 2525	no	no	P0	Joey	inside_scene(mention)											
+09x03 2525	no	no	P1	Rachel	inside_scene(background)				inside_scene(mention)							
+09x03 2525	no	yes	P2	Ross	fact(relation)											
+09x03 2525	no	yes	P3	Phoebe	fact(attribute)	linguistic style										
+09x03 2526	no	no	P0	Chandler	history event				inside_scene(mention)							
+09x03 2526	no	yes	P1	Monica	history event				fact(relation)							
+09x03 2527	no	no	P0	Rachel	inside_scene(mention)											
+09x03 2527	no	yes	P1	Ross	fact(relation)											
+09x03 2528	yes	yes	P0	Phoebe	history event	inside_scene(background)										
+09x03 2528	yes	yes	P1	Joey	history event	personality										
+09x03 2529	yes	yes	P0	Rachel	history event											
+09x03 2529	yes	yes	P1	Monica	history event	fact(relation)		commonsense								
+09x03 2529	yes	yes	P2	Chandler	inside_scene(exclusive)											
+09x03 2531	no	no	P0	Joey	history event				inside_scene(mention)							
+09x03 2531	yes	yes	P1	Phoebe	history event											
+09x03 2532	no	no	P0	Monica	inside_scene(background)	fact(relation)		multihop-textual	inside_scene(mention)							
+09x03 2532	no	no	P1	Chandler	inside_scene(background)			multihop-textual								
+09x03 2533	no	no	P0	Rachel	inside_scene(mention)											
+09x03 2533	yes	yes	P1	Ross	history event											
+09x03 2534	no	no	P0	Phoebe	history event				inside_scene(mention)							
+09x03 2534	no	no	P1	Joey	inside_scene(background)			commonsense	history event				inside_scene(background)			
+09x03 2535	no	no	P0	Chandler	history event	fact(relation)		multihop-character	inside_scene(mention)							
+09x03 2535	yes	yes	P1	Monica	history event											
+09x03 2535	no	no	P2	Ross	history event	inside_scene(background)			inside_scene(mention)							
+09x03 2535	no	no	P3	Rachel	inside_scene(background)				history event							
+09x03 2536	no	yes	P0	Phoebe	history event				fact(attribute)							
+09x03 2536	yes	yes	P1	Joey	history event											
+09x03 2538	yes	yes	P0	Ross	history event											
+09x03 2538	no	yes	P1	Monica	fact(relation)											
+09x03 2538	no	no	P2	Chandler	history event	fact(relation)			inside_scene(mention)							
+09x03 2538	no	yes	P3	Rachel	inside_scene(exclusive)											
+09x03 2538	no	yes	P4	Phoebe	inside_scene(background)	personality		multihop-textual								
+09x03 2538	no	no	P5	Joey	inside_scene(mention)				inside_scene(background)							
+09x03 2539	yes	yes	P0	Chandler	history event	inside_scene(background)		multihop-textual								
+09x03 2539	no	no	P1	Joey	inside_scene(mention)											
+09x03 2539	no	yes	P2	Monica	inside_scene(background)	fact(relation)										
+09x04 2540	yes	yes	P0	Phoebe	history event											
+09x04 2540	no	no	P1	Ross	inside_scene(mention)											
+09x04 2541	no	yes	P0	Monica	fact(relation)			commonsense								
+09x04 2541	no	no	P1	Joey	inside_scene(mention)				personality							
+09x04 2542	yes	yes	P0	Ross	inside_scene(exclusive)											
+09x04 2542	yes	yes	P1	Phoebe	history event											
+09x04 2545	no	no	P0	Chandler	inside_scene(background)				history event	inside_scene(background)						
+09x04 2545	no	no	P1	Monica	inside_scene(background)											
+09x04 2545	no	no	P2	Rachel	inside_scene(background)											
+09x04 2546	yes	yes	P0	Rachel	history event	inside_scene(background)										
+09x04 2546	yes	yes	P1	Monica	history event											
+09x04 2546	no	no	P2	Joey	history event				inside_scene(mention)							
+09x04 2547	no	no	P0	Phoebe	inside_scene(background)			commonsense	inside_scene(mention)							
+09x04 2547	no	no	P1	Ross	inside_scene(mention)											
+09x04 2549	yes	yes	P0	Phoebe	inside_scene(background)	history event										
+09x04 2549	no	no	P1	Ross	inside_scene(background)											
+09x04 2550	no	no	P0	Chandler	inside_scene(background)				history event							
+09x04 2550	no	yes	P1	Monica	fact(relation)	inside_scene(background)			history event							
+09x04 2551	no	yes	P0	Joey	personality											
+09x04 2551	no	no	P1	Phoebe	inside_scene(background)											
+09x05 2552	no	no	P0	Phoebe	history event				inside_scene(mention)							
+09x05 2552	no	no	P1	Joey	inside_scene(exclusive)											
+09x05 2552	no	no	P2	Ross	inside_scene(background)											
+09x05 2552	no	no	P3	Rachel	inside_scene(background)	fact(relation)			inside_scene(mention)							
+09x05 2552	no	no	P4	Monica	inside_scene(mention)											
+09x05 2554	no	yes	P0	Phoebe	inside_scene(background)	fact(attribute)										
+09x05 2554	no	no	P1	Monica	inside_scene(background)											
+09x05 2554	no	no	P2	Chandler	inside_scene(background)											
+09x05 2555	no	no	P0	Ross	inside_scene(background)											
+09x05 2555	no	no	P1	Rachel	inside_scene(background)	fact(status)			inside_scene(mention)							
+09x05 2556	no	no	P0	Phoebe	inside_scene(exclusive)											
+09x05 2556	no	no	P1	Joey	inside_scene(mention)											
+09x05 2557	yes	yes	P0	Monica	history event											
+09x05 2557	yes	yes	P1	Chandler	history event											
+09x05 2558	no	yes	P0	Ross	history event				inside_scene(background)	personality	fact(status)					
+09x05 2558	no	no	P1	Rachel	fact(relation)	fact(status)			inside_scene(mention)							
+09x05 2559	no	yes	P0	Joey	inside_scene(background)	personality										
+09x05 2559	no	yes	P1	Phoebe	inside_scene(background)	personality										
+09x05 2560	yes	yes	P0	Monica	history event											
+09x05 2560	no	no	P1	Chandler	inside_scene(background)			commonsense	history event							
+09x05 2561	no	yes	P0	Rachel	fact(relation)				fact(status)							
+09x05 2561	no	yes	P1	Ross	history event				inside_scene(background)	personality						
+09x05 2562	yes	yes	P0	Chandler	history event											
+09x05 2562	yes	yes	P1	Monica	history event	fact(attribute)										

@@ -1,0 +1,152 @@
+Episode	need history event	Facts abstracted from memory	Character Code	Guessed Character Name	Evidence-a1	Evidence-a2	Evidence-a3	Reasoning Type
+08x03 4896	no	no	P0	sheldon	personality			no
+08x03 4896	no	yes	P1	amy	fact(relation)	inside_scene(background)		multihop-textual
+08x03 4896	yes	yes	P2	penny (abductive)	linguistic style	history event		
+08x03 4896	yes	yes	P3	leonard (abductive)	fact(relation)			no
+08x03 4898	no	yes	P0	penny	inside_scene(background)	fact(relation)		multihop-textual
+08x03 4898	no	no	P1	sheldon	inside_scene(mention)			no
+08x03 4898	no	no	P2	amy	inside_scene(background)			no
+08x03 4898	no	no	P3	leonard	inside_scene(mention)			no
+08x03 4900	yes	yes	P0	leonard	history event	fact(status)		
+08x03 4900	yes	yes	P1	sheldon	history event	personality		
+08x03 4900	yes	yes	P2	penny	history event	fact(relation)		multihop-character
+08x03 4900	yes	yes	P3	amy	inside_scene(exclusive)			no
+08x03 4901	no	no	P0	howard	history event			no
+08x03 4901	no	no	P1	raj	inside_scene(exclusive)			no
+08x03 4902	no	yes	P0	amy	inside_scene(background)			multihop-textual
+08x03 4902	yes	yes	P1	penny	history event	personality		
+08x03 4902	no	no	P2	sheldon	inside_scene(mention)			no
+08x03 4902	yes	yes	P3	leonard	history event	fact(status)		
+08x03 4903	yes	yes	P0	raj	history event	inside_scene(background)		commonsense
+08x03 4903	yes	yes	P1	howard	inside_scene(exclusive)			no
+08x03 4904	yes	yes	P0	leonard	history event	personality		
+08x03 4904	yes	yes	P1	penny	inside_scene(exclusive)			no
+08x03 4906	yes	yes	P0	penny	history event			no
+08x03 4906	yes	yes	P1	amy	history event			multihop-character
+08x03 4906	yes	yes	P2	sheldon	history event	personality		
+08x03 4906	no	no	P3	leonard	fact(relation)	inside_scene(background)		
+08x03 4907	yes	yes	P0	raj	inside_scene(exclusive)			no
+08x03 4907	yes	yes	P1	penny	linguistic style	history event	inside_scene(exclusive)	multihop-textual
+08x03 4907	yes	yes	P2	leonard	fact(relation)			no
+08x03 4907	no	no	P3	sheldon	inside_scene(mention)			no
+08x03 4907	no	yes	P4	amy	fact(relation)			multihop-character
+08x03 4907	no	no	P5	howard	inside_scene(mention)			no
+08x04 4909	no	yes	P0	amy	fact(relation)			multihop-character
+08x04 4909	no	no	P1	howard	inside_scene(mention)			no
+08x04 4909	no	no	P2	raj	fact(relation)			no
+08x04 4909	no	yes	P3	sheldon	personality			no
+08x04 4909	no	yes	P4	leonard	inside_scene(mention)	inside_scene(exclusive)	inside_scene(background)	multihop-textual
+08x04 4909	no	yes	P5	penny	inside_scene(mention)	personality	inside_scene(mention)	
+08x04 4910	no	yes	P0	penny	fact(attribute)			no
+08x04 4910	no	yes	P1	amy	inside_scene(exclusive)			no
+08x04 4911	no	yes	P0	sheldon	personality	inside_scene(background)		multihop-textual
+08x04 4911	yes	yes	P1	howard	history event	inside_scene(background)		
+08x04 4911	yes	yes	P2	leonard	personality	inside_scene(exclusive)		
+08x04 4911	yes	yes	P3	raj	inside_scene(exclusive)			no
+08x04 4908	yes	yes	P0	leonard	fact(relation)	inside_scene(exclusive)		
+08x04 4908	no	yes	P1	sheldon	linguistic style	fact(attribute)		
+08x04 4908	yes	yes	P2	howard	inside_scene(exclusive)			no
+08x04 4908	yes	yes	P3	raj	inside_scene(background)	history event		
+08x02 4884	no	yes	P1	amy	fact(attribute)			no
+08x02 4884	yes	yes	P0	penny	history event			no
+08x02 4885	no	no	P0	raj	history event	fact(relation)		
+08x02 4885	yes	yes	P1	howard	inside_scene(exclusive)			no
+08x02 4885	yes	yes	P2	leonard	fact(relation)	personality		multihop-character
+08x02 4885	yes	yes	P3	sheldon	history event			no
+08x02 4887	yes	yes	P0	leonard	personality	inside_scene(exclusive)		
+08x02 4887	yes	yes	P1	sheldon	history event			no
+08x02 4887	no	no	P2	howard	fact(attribute)			no
+08x02 4887	yes	yes	P3	raj	linguistic style	inside_scene(exclusive)		
+08x02 4888	no	yes	P0	amy	fact(relation)			no
+08x02 4888	yes	yes	P1	sheldon	history event			no
+08x02 4889	no	no	P0	leonard	inside_scene(mention)			no
+08x02 4889	no	no	P1	sheldon	history event			no
+08x02 4890	yes	yes	P0	howard	history event			no
+08x02 4890	no	yes	P1	sheldon	fact(attribute)			no
+08x02 4891	no	no	P0	amy	fact(status)	fact(relation)		multihop-character
+08x02 4891	yes	yes	P1	penny	history event			no
+08x02 4891	no	yes	P2	sheldon	fact(relation)			no
+08x02 4892	no	no	P0	sheldon	inside_scene(mention)			no
+08x02 4892	no	yes	P1	leonard	fact(relation)			no
+08x02 4892	yes	yes	P2	howard	history event			no
+08x02 4892	yes	yes	P3	raj	inside_scene(exclusive)			no
+08x02 4893	yes	yes	P0	penny	history event			no
+08x02 4893	no	no	P1	amy	inside_scene(background)			no
+08x02 4894	no	yes	P0	leonard	inside_scene(exclusive)			no
+08x02 4894	no	no	P1	raj (abductive)	personality	fact(attribute)		
+08x02 4894	no	yes	P2	howard (abductive)	personality	linguistic style		
+08x02 4894	no	no	P3	sheldon	linguistic style			no
+08x02 4882	no	yes	P0	sheldon	linguistic style	fact(attribute)		
+08x02 4882	no	yes	P1	howard	fact(relation)	inside_scene(exclusive)		
+08x02 4882	no	yes	P2	raj	personality			no
+08x02 4882	no	yes	P3	amy	fact(relation)			multihop-character
+08x02 4882	no	yes	P4	leonard	personality	inside_scene(exclusive)		
+08x02 4882	no	no	P5	penny	inside_scene(mention)			no
+08x03 4899	yes	yes	P0	raj	inside_scene(exclusive)			no
+08x03 4899	yes	yes	P1	howard	history event			no
+08x04 4916	yes	yes	P0	leonard	history event			no
+08x04 4916	yes	yes	P1	penny	fact(relation)			multihop-character
+08x05 4923	no	yes	P3	sheldon	history event	linguistic style		
+08x05 4923	no	yes	P1	leonard	history event	inside_scene(background)		
+08x05 4923	no	yes	P2	howard	fact(attribute)	inside_scene(exclusive)		
+08x05 4923	no	yes	P0	raj	inside_scene(exclusive)			no
+08x05 4929	no	yes	P0	leonard	personality			no
+08x05 4929	no	yes	P1	sheldon	fact(attribute)			no
+08x05 4929	yes	yes	P2	raj	history event			no
+08x05 4929	yes	yes	P3	howard	inside_scene(exclusive)			no
+08x06 4935	yes	yes	P0	penny	inside_scene(background)	history event		multihop-textual
+08x06 4935	yes	yes	P1	howard	inside_scene(exclusive)			
+08x06 4935	yes	yes	P2	leonard	fact(relation)	history event	inside_scene(background)	multihop-textual
+08x06 4935	yes	yes	P3	amy	fact(relation)	personality		multihop-character
+08x06 4935	no	no	P4	sheldon	inside_scene(mention)			no
+08x06 4935	no	yes	P5	raj	fact(attribute)			no
+08x03 4895	no	no	P0	howard	history event	inside_scene(mention)		
+08x03 4895	no	yes	P1	leonard	personality			no
+08x03 4895	no	yes	P2	raj	personality	inside_scene(exclusive)		
+08x03 4895	no	no	P3	sheldon	linguistic style	personality		
+08x03 4895	no	no	P4	penny	fact(relation)	linguistic style	personality	
+08x04 4913	no	yes	P0	sheldon	personality			no
+08x04 4913	no	yes	P1	leonard	personality			no
+08x04 4913	yes	yes	P2	howard	history event	fact(relation)		
+08x04 4913	no	no	P3	raj	fact(relation)			no
+08x04 4913	no	no	P4	penny	fact(relation)			multihop-character
+08x04 4914 	yes	yes	P0	penny	history event	inside_scene(background)		
+08x04 4914 	no	no	P1	amy	inside_scene(mention)			no
+08x04 4915	no	yes	P0	sheldon	linguistic style	personality		
+08x04 4915	no	yes	P1	howard	fact(relation)			no
+08x04 4915	no	no	P2	leonard	fact(relation)	inside_scene(mention)		
+08x04 4918	no	no	P0	sheldon	inside_scene(exclusive)			multihop-character
+08x04 4918	no	no	P1	amy	inside_scene(mention)	inside_scene(exclusive)		multihop-character
+08x04 4919	no	no	P0	raj	inside_scene(background)	inside_scene(exclusive)		multihop-character
+08x04 4919	yes	yes	P1	penny	history event			no
+08x04 4921	no	no	P0	raj	inside_scene(background)	inside_scene(exclusive)		multihop-character
+08x04 4921	no	no	P1	penny	inside_scene(mention)	fact(relation)		
+08x04 4922	yes	yes	P0	raj	history event	personality		
+08x04 4922	no	yes	P1	leonard	personality			no
+08x04 4922	no	yes	P2	sheldon	personality	linguistic style		
+08x04 4922	no	no	P3	howard	inside_scene(exclusive)			multihop-character
+08x05 4924	no	no	P0	penny	fact(relation)			no
+08x05 4924	yes	yes	P1	leonard	history event			no
+08x05 4924	no	yes	P2	amy	personality	fact(relation)		
+08x05 4925	no	no	P0	raj	fact(relation)	inside_scene(mention)		
+08x05 4925	no	no	P1	leonard	inside_scene(mention)			no
+08x05 4925	no	yes	P2	howard	personality	linguistic style		
+08x05 4925	no	no	P3	sheldon	inside_scene(exclusive)			multihop-character
+08x05 4926	yes	yes	P0	penny	history event			no
+08x05 4926	no	no	P1	amy	inside_scene(mention)			multihop-character
+08x05 4930	no	yes	P0	amy	personality			no
+08x05 4930	no	no	P1	penny	inside_scene(mention)			no
+08x05 4927	no	yes	P0	howard	fact(attribute)			no
+08x05 4927	no	yes	P1	sheldon	linguistic style	personality		
+08x05 4927	no	no	P2	leonard	inside_scene(exclusive)			multihop-character
+08x05 4927	no	no	P3	raj	inside_scene(exclusive)			multihop-character
+08x05 4931	no	yes	P0	leonard	personality			no
+08x05 4931	no	no	P1	raj	fact(relation)	fact(attribute)		
+08x05 4931	no	no	P2	sheldon	inside_scene(mention)			no
+08x05 4931	no	yes	P3	howard	fact(relation)			no
+08x05 4933	no	yes	P0	penny	personality	linguistic style		
+08x05 4933	no	no	P1	amy	fact(attribute)			no
+08x05 4934	yes	yes	P0	penny	history event			no
+08x05 4934	no	no	P1	amy	inside_scene(exclusive)			multihop-character
+08x06 4936	no	no	P0	leonard	fact(relation)			multihop-character
+08x06 4936	yes	yes	P1	penny	history event			no
