@@ -9,8 +9,8 @@ In this repository, we only release the processed data.
 
 | Name                  | <div style="width:150px">Description</div>                            |  Link                |  
 | :-------------------- | :-------------------------------------------------------------------- | :------------------: |  
-| Split Scenes	        | Idenfify the scenes in the raw data and generate a list of scenes     | [OneDrive](https://1drv.ms/u/s!ArPzysVAJSvtqKBLwEglCdlF6l4buw?e=InxuOW) |
-| Merged by Character   | The utterances/narratives are re-organized by speakers and background | [OneDrive](https://1drv.ms/u/s!ArPzysVAJSvtqKBNed3Pe3YYWNywhA?e=TWYwha) |  
+| Split Scenes	        | Idenfify the scenes in the raw data and generate a list of scenes     | [OneDrive](https://1drv.ms/u/s!ArPzysVAJSvtqKJZipldfI7k9SZ0cA?e=5fXvmT) |
+| Merged by Character   | The utterances/narratives are re-organized by speakers and background | [OneDrive](https://1drv.ms/u/s!ArPzysVAJSvtqKJXkM02lpXowgA9-g?e=nqTQyL) |  
 
 Our provided scripts use the __split_scenes__ files for tokenization and model training. We also merge the data by characters upon the split scenes for your best convenience. 
 
