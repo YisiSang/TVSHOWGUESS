@@ -14,7 +14,7 @@ conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 
 ## Data Preparation ##
 1. Download the dataset and move the zip file into the [dataset](dataset/) folder.
-2. Extract the data by the following commands
+2. Extract the data by the following commands:
 ```bash
 cd dataset/
 unzip split_scenes.zip -d split_scenes
